@@ -10,7 +10,7 @@
   "scripts": {
     "build": "npx tsc",
     "prestart": "npm run build",
-    "start": "node tsc dist/index.js",
+    "start": "tsc && node dist/index.js",
     "test": "jest --coverage",
     "dev": "nodemon --exec ts-node src/index.ts"
   },
