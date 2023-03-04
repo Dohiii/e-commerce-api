@@ -8,6 +8,5 @@ const port = process.env.PORT || 4000;
 
 app.listen(port, async () => {
   console.log(`Server is listening on port ${port}`);
-
   await connect();
 });
